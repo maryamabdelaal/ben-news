@@ -1,0 +1,545 @@
+/* css code */
+/* start header */
+*{
+    box-sizing: border-box;
+    font-family: tahoma;
+
+}
+.header{
+    position:fixed; 
+    width:100%;
+    height:100px;
+    top:0;
+    left:0;
+    border: 2px solid #eee;
+    background-color:white
+    
+}
+.shoppy{
+    font-size:45px;
+    color:#fc8213;
+    font-family: tahoma;
+    padding: 120px;
+}
+.input{
+    padding: 10px;
+    margin-left:-96px;
+    border: 2px solid rgb(197, 197, 197);
+    outline:none 
+}
+/* end header */
+/* start home */
+.home{
+    width:90%;
+    float: right;
+    margin-left:20px;
+    margin-top: 130px;
+    text-align: center
+
+}
+/* start boxes */
+.box-one{
+    width:30%;
+    height:auto;
+    display: inline-block;
+    margin: 10px;
+    background-color:#68ae00 ;
+    color: white;
+    padding:30px;
+    text-align: left
+}
+.box-two{
+    width:30%;
+    height:auto;
+    display: inline-block;
+    margin: 10px;
+    background-color:#FC8213;
+    color: white;
+    padding:30px;
+    text-align: left 
+}.box-three{
+    width:30%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    background-color:#337AB7; 
+    color: white;
+    padding:30px;
+    text-align: left
+}
+.fa-file-text-o, .fa-eye, .fa-envelope-o{
+    float: right;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    margin-top: -92px;
+    border-radius: 50%;
+}
+.fa-file-text-o{
+    color: #68ae00;
+    padding: 15px;
+    text-align: center
+}
+.fa-eye{
+   color: #FC8213;
+   padding: 15px;
+   text-align: center
+}
+.fa-envelope-o{
+    color: #337AB7; 
+    padding: 15px;
+    text-align: center
+}
+.span{
+    font-size: 27px
+}
+.h2{
+    font-size: 18px;
+}
+.p{
+    font-size: 15px;
+} 
+.box-one:hover{
+    background-color: #333
+}
+.box-two:hover{
+    background-color: #333
+}
+.box-three:hover{
+    background-color: #333
+}
+.box-one, .box-two, .box-three{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(129, 127, 127)
+}
+/* end boxes */
+/* start followers */
+.followers{
+    width: 50%;
+    float: left;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+    margin: 20px;
+    padding: 20px
+
+}
+.home .followers table{
+    border-spacing: 0;
+    width: 100%
+}
+.caption{
+    text-align: left;
+    padding:15px 10px 10px 10px;
+    font-weight: 700;
+    color: #5F5D5D;
+}
+.home .followers table thead td{
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+}
+.home .followers table tbody td{
+    color: gray
+}
+.home .followers table td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.home .followers table .last-td{
+    border-bottom: none;
+}
+.home .followers table td .icons{
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white
+}
+.home .followers table td .one{
+    background-color: #d9534f
+}
+.home .followers table td .two{
+    background-color: #5cb85c;
+}
+.home .followers table td .three{
+    background-color:#f0ad4e
+}
+.home .followers table td .four{
+    background-color:#5bc0de
+
+}
+.home .followers table td .percent{
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: #777;
+    border-radius: 10px;
+}
+/* end followers */
+.melorum{
+    float: right;
+    width: 40%;
+    height:360px ;
+    margin:22px 30px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+
+}
+.top-melorum{
+    padding: 85px;
+    background-color: rgb(83, 88, 88);
+}
+.buttom-melorum img{
+    margin-top: -43px;
+    margin-left:-138px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 50%;
+}
+.buttom-melorum h2{
+    color: #68AE00
+}
+.buttom-melorum p{
+    line-height: 1.8em;
+}
+.buttom-melorum .orange{
+    float: left;
+    color: orange;
+    margin: 20px
+}
+/* */
+.four-boxes{
+    width: 100%;
+    float: left;
+}
+.four-boxes .first-box{
+    float: left;
+    width: 21%;
+    background-color: #dbdbdb;
+    margin:2%;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+}
+.four-boxes .first-box .top-box{
+    padding: 40px;
+    background-color: white;
+}
+.four-boxes .first-box .top-box .fa-mail-forward{
+    color: #8BC34A
+}
+.four-boxes .first-box .buttom-box .growth{
+    position: relative;
+    color: white;
+    background-color: #8BC34A;
+    padding: 5px 16px;
+    margin: -65px;
+    margin-left: -52px;
+
+}
+.four-boxes .first-box .buttom-box h2{
+    margin:53px;
+    font-size: 35px;
+    color: #575757;
+    font-weight: bold
+    
+}
+
+.four-boxes .second-box{
+    float: left;
+    width: 21%;
+    background-color: #dbdbdb;
+    margin:2%;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+    
+}
+.four-boxes .second-box .top-box{
+    padding: 40px;
+    background-color: white
+}
+.four-boxes .second-box .top-box .fa-users{
+    color: #00BCD4
+}
+.four-boxes .second-box .buttom-box .growth{
+    position: relative;;
+    color: white;
+    background-color: #00BCD4;
+    padding: 5px 16px;
+    margin: -65px;
+    margin-left: -52px;
+
+}
+.four-boxes .second-box .buttom-box h2{
+    margin:53px;
+    font-size: 35px;
+    color: #575757;
+    font-weight: bold
+    
+}
+
+
+.four-boxes .thrid-box{
+    float: left;
+    width: 21%;
+    background-color: #dbdbdb;
+    margin:2%;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+    
+}
+.four-boxes .thrid-box .top-box{
+    padding: 65px;
+    background-color: white
+}
+.four-boxes .thrid-box .top-box .fa-eye{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -38px;
+    color:#F44336
+}
+.four-boxes .thrid-box .buttom-box .growth{
+    position: relative;
+    color: white;
+    background-color: #F44336;
+    padding: 5px 16px;
+    margin: -65px;
+    margin-left: -52px;
+
+}
+.four-boxes .thrid-box .buttom-box h2{
+    margin:53px;
+    font-size: 35px;
+    color: #575757;
+    font-weight: bold
+    
+}
+.four-boxes .fourth-box{
+    float: left;
+    width: 21%;
+    background-color: #dbdbdb;
+    margin:2%;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+    
+}
+.four-boxes .fourth-box .top-box{
+    padding: 40px;
+    background-color: white
+}
+.four-boxes .fourth-box .top-box .fa-usd{
+    color: #FFCA28
+}
+.four-boxes .fourth-box .buttom-box .growth{
+    position: relative;
+    color: white;
+    background-color: #FFCA28;
+    padding: 5px 16px;
+    margin: -65px;
+    margin-left: -52px;
+
+}
+.four-boxes .fourth-box .buttom-box h2{
+    margin:53px;
+    font-size: 35px;
+    color: #575757;
+    font-weight: bold
+    
+}
+.boxes-chats{
+    float: left;
+    width: 35%;
+    height: 450px;
+    margin: 15px;
+    background: #fff;
+    overflow: scroll;
+    box-shadow: 2px 2px 2px 2px  rgb(212, 211, 211);
+}
+
+.boxes-chats .box-h2{
+    font-family:'Cabin', sans-serif;
+    font-size: 15px;
+    background-color:#F44336;
+    padding:10px;
+    margin-top: 0;
+    color: white;
+    text-align: left
+}
+.boxes-chats  .one{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgb(206, 202, 202);
+    
+}
+.boxes-chats  .one img{
+    float: left;
+    padding: 10px
+}
+.boxes-chats  .one h3{
+    float: left;
+    padding: 10px;
+    margin: 8px;
+    font-size: 12px;
+    color: #00BCD4;
+    
+    
+
+}
+.boxes-chats .one h3:hover{
+    color: black
+}
+.boxes-chats .one p{
+    color: #999;
+    font-size:15px;
+    text-align:left
+    
+
+}
+.boxes-chats .two{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgb(206, 202, 202);
+    
+    
+}
+.boxes-chats .two img{
+    float: left;
+    padding: 10px
+}
+.boxes-chats .two h3{
+    float: left;
+    color: #00BCD4;
+    font-size: 12px;
+    padding: 10px;
+    margin: 8px;
+
+}
+.boxes-chats .two h3:hover{
+    color: black
+}
+.boxes-chats .two p{
+    color: #999;
+    font-size:15px;
+    float: left;
+    margin: 0px;
+    padding: 0px
+
+}
+.boxes-chats  .three{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgb(206, 202, 202);
+    
+
+}
+.boxes-chats .three img{
+    float: left;
+    padding: 10px
+}
+.boxes-chats .three h3{
+    float: left;
+    color: #00BCD4;
+    font-size: 12px;
+    padding: 10px;
+    margin: 8px;
+
+}
+.boxes-chats .three h3:hover{
+    color: black
+}
+.boxes-chats .three p{
+    color: #999;
+    font-size:15px;
+    float: left;
+    margin: 0px;
+    padding: 0px
+
+}
+.boxes-chats  .four{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgb(206, 202, 202);
+    
+   
+}
+.boxes-chats .four img{
+    float: left;
+    padding: 10px
+}
+.boxes-chats .four h3{
+    float: left;
+    color: #00BCD4;
+    font-size: 12px;
+    padding: 10px;
+    margin: 8px;
+}
+.boxes-chats  .four h3:hover{
+    color: black
+}
+.boxes-chats .four p{
+    color: #999;
+    font-size:15px;
+    float: left;
+    margin: 0px;
+    padding: 0px
+
+}
+.boxes-chats  .five{
+    padding: 10px;
+    float: left;
+    width: 100%
+  
+}
+.boxes-chats .five img{
+    float: left;
+    padding: 10px
+}
+.boxes-chats  .five h3{
+    float: left;
+    color: #00BCD4;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: -15px
+
+}
+.boxes-chats .five h3:hover{
+    color: black
+}
+.boxes-chats  .five p{
+    color: #999;
+    font-size:15px;
+    float: right;
+    margin: 0px;
+    padding: 0px
+
+}
+
+
+/* end home */
+/* start menu */
+.menu{
+    position: fixed;
+    top:98px;
+    left:0;
+    width:8%;
+    height:3000px;
+    background-color: rgb(34, 33, 33);
+}
+.list{
+    float: left;
+    list-style: none;
+    color: white;
+    padding: 15px;
+    margin-left: -15px
+
+}
+.list:hover{
+    color: #fdbb30
+}
+.clearfix{
+    clear: both;
+}
+/* end menu */
